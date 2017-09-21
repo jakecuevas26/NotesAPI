@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="NotesAPI:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/NotesAPI_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="NotesAPI/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="NotesAPI" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Jersey-2.2" />
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-bundle:1.18.3" />
+          <element id="library" level="project" name="Maven: javax.ws.rs:jsr311-api:1.1.1" />
+          <element id="library" level="project" name="org.json-20120521" />
+          <element id="library" level="project" name="jettison-1.3" />
+          <element id="library" level="project" name="derby" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
