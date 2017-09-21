@@ -11,9 +11,9 @@
           <element id="library" level="project" name="Jersey-2.2" />
           <element id="library" level="project" name="Maven: com.sun.jersey:jersey-bundle:1.18.3" />
           <element id="library" level="project" name="Maven: javax.ws.rs:jsr311-api:1.1.1" />
-          <element id="library" level="project" name="org.json-20120521" />
-          <element id="library" level="project" name="jettison-1.3" />
           <element id="library" level="project" name="derby" />
+          <element id="library" level="project" name="jettison-1.3" />
+          <element id="library" level="project" name="org.json-20120521" />
         </element>
       </element>
     </root>
