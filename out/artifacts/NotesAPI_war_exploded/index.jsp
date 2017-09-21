@@ -1,5 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+<script src="/resources/issues.js"></script>
+
 <head>
   <h1>Git Issues API</h1>
 </head>
@@ -18,14 +20,4 @@
   </ul>
 </div>
 
-<script>
-    var NotesAPI = angular.module('NotesAPI', []);
-    NotesAPI.controller('gitAPIController', function($scope,$http) {
-        $http.get("https://api.github.com/repos/angular/angular/issues?since=2017-09-13T15:13:00+00:00")
-            .success(function(data) {
-                console.log(data);
-                console.log("hello");
-                $scope.issueData = data;
-            });
-    });
-</script>
+
